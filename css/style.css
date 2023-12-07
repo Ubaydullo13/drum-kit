@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/drum-kit.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+  padding: 1.5rem;
+  font-family: "Lobster", cursive;
+  color: #49d56c;
+  text-shadow: 0 0 10px black;
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+h6 {
+  padding: 1rem;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  text-shadow: 0 0 12px black;
+  color: #49d56c;
+}
+
+.keys {
+  display: grid;
+  grid-gap: 3vh;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 425px;
+  margin: 0 auto;
+}
+
+.key {
+  align-self: center;
+  justify-self: stretch;
+  text-align: center;
+  padding: 1rem;
+  border: 4px solid rgb(118, 109, 109);
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  text-shadow: 0 0 5px black;
+  font-size: 0.5rem;
+  transition: all 0.07s;
+}
+
+kbd {
+  padding: 0.5rem;
+  font-size: 2.5rem;
+}
+
+.sound {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #49d56c;
+}
+
+.playing {
+  border-color: #49d56c;
+  box-shadow: 0 0 10px #ffc600;
+  transform: scale(1.1);
+}

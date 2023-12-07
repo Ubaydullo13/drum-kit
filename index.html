@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drum-Kit</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>JavaScript Drum Kit</h1>
+    <div class="keys">
+      <div data-key="81" class="key">
+        <kbd data-key="81">Q</kbd>
+        <br />
+        <span data-key="81" class="sound">clap</span>
+      </div>
+      <div data-key="87" class="key">
+        <kbd data-key="87">W</kbd>
+        <br />
+        <span data-key="87" class="sound">hi-hat</span>
+      </div>
+      <div data-key="69" class="key">
+        <kbd data-key="69">E</kbd>
+        <br />
+        <span data-key="69" class="sound">kick</span>
+      </div>
+      <div data-key="65" class="key">
+        <kbd data-key="65">A</kbd>
+        <br />
+        <span data-key="65" class="sound">op hh</span>
+      </div>
+      <div data-key="83" class="key">
+        <kbd data-key="83">S</kbd>
+        <br />
+        <span data-key="83" class="sound">snare</span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd data-key="68">D</kbd>
+        <br />
+        <span data-key="68" class="sound">crash</span>
+      </div>
+      <div data-key="90" class="key">
+        <kbd data-key="90">Z</kbd>
+        <br />
+        <span data-key="90" class="sound">ride</span>
+      </div>
+      <div data-key="88" class="key">
+        <kbd data-key="88">X</kbd>
+        <br />
+        <span data-key="88" class="sound">tom</span>
+      </div>
+      <div data-key="67" class="key">
+        <kbd data-key="67">C</kbd>
+        <br />
+        <span data-key="67" class="sound">tom</span>
+      </div>
+    </div>
+    <h6>Press A key to play sound</h6>
+    <audio data-key="81" src="./audio/01clap.wav"></audio>
+    <audio data-key="87" src="./audio/02hihat.wav"></audio>
+    <audio data-key="69" src="./audio/03kick.wav"></audio>
+    <audio data-key="65" src="./audio/04openhh.wav"></audio>
+    <audio data-key="83" src="./audio/05snare.wav"></audio>
+    <audio data-key="68" src="./audio/06crash.wav"></audio>
+    <audio data-key="90" src="./audio/07ride.wav"></audio>
+    <audio data-key="88" src="./audio/08tom1.wav"></audio>
+    <audio data-key="67" src="./audio/09tom2.wav"></audio>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
